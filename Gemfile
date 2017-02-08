@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 
+group :production do
+  gem 'pg', '0.15.1'
+end
+gem "rspec-rails"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.10'
 # Use sqlite3 as the database for Active Record
